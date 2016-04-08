@@ -53,11 +53,10 @@
                 <h3>ПОПРОБУЙТЕ</h3>
                 <h3>-K-CALL-</h3>
                 <div class="price">
-                  <div class="currency"></div>
-                  БЕСПЛАТНО
+                  ОТ
+                  39 <img src="static/img/gel.svg" class="currency currency-gel"> / МЕС.
                 </div>
-                <p>Всем новым клиентам</p>
-                <p>первый месяц услуг - бесплатно</p>
+                <p>&mdash; при годовой подписке.</p>
                 <a class="btn btn-purchase" data-subscription-type="free" href="#contacts">ПОПРОБОВАТЬ</a>
               </div>
             </div>
@@ -124,21 +123,22 @@
           <div class="plans">
             <div class="plan">
               <div class="title">
-                БЕСПЛАТНЫЙ ТЕСТОВЫЙ ПЕРИОД
+                ПОЛУГОДОВАЯ ПОДПИСКА
                 <div class="price">
                   <!-- <span class="currency"> -->
                   <img src="static/img/gel.svg" class="currency currency-gel">
                   <!-- ₾</span> -->
-                  0<span class="period">/ МЕСЯЦ</span>
+                  294<span class="period">/ 6 МЕСЯЦЕВ</span>
                 </div>
-                <a class="btn btn-clear btn-small btn-purchase" data-subscription-type="free" href="#">ПОПРОБОВАТЬ</a>
+                <a class="btn btn-clear btn-small btn-purchase" data-subscription-type="6months" href="#">ОФОРМИТЬ ПОДПИСКУ</a>
+                <div class="ribbon">СКИДКА &mdash; 16%</div>
               </div>
               <div class="description">
                 <div class="description-box">
-                  <span class="fui-cmd"></span> <b>1</b> запрос в день.
+                  <span class="fui-cmd"></span> <b>Неограниченное</b> количество запросов.
                 </div>
                 <div class="description-box">
-                  <span class="fui-cmd"></span> Запросы информационного характера.
+                  <span class="fui-cmd"></span> <b>Любые</b> типы запросов.
                 </div>
               </div>
             </div>
@@ -147,10 +147,10 @@
                 ГОДОВАЯ ПОДПИСКА
                 <div class="price">
                   <img src="static/img/gel.svg" class="currency currency-gel">
-                  1 000<span class="period">/ ГОД</span>
+                  468<span class="period">/ ГОД</span>
                 </div>
                 <a class="btn btn-clear btn-small btn-purchase" data-subscription-type="vip" href="#">ОФОРМИТЬ VIP-ПОДПИСКУ</a>
-                <div class="ribbon">СКИДКА 15%</div>
+                <div class="ribbon">СКИДКА &mdash; 33%</div>
               </div>
               <div class="description">
                 <div class="description-box">
@@ -169,9 +169,9 @@
                 ЕЖЕМЕСЯЧНАЯ ПОДПИСКА
                 <div class="price">
                   <img src="static/img/gel.svg" class="currency currency-gel">
-                  99<span class="period">/ МЕСЯЦ</span>
+                  59<span class="period">/ МЕСЯЦ</span>
                 </div>
-                <a class="btn btn-clear btn-small btn-purchase" data-subscription-type="paid" href="#">ОФОРМИТЬ ПОДПИСКУ</a>
+                <a class="btn btn-clear btn-small btn-purchase" data-subscription-type="month" href="#">ОФОРМИТЬ ПОДПИСКУ</a>
               </div>
               <div class="description">
                 <div class="description-box">
@@ -254,16 +254,16 @@
             <div class="col-sm-6">
               <form class="contact-form">
                 <label class="h6">Тип обращения</label>
-                <select class="form-control" name="type">
+                <select class="form-control" name="type" required>
                   <option value="info">Задать вопрос</option>
-                  <option value="free">Оформление бесплатного тестового периода</option>
-                  <option value="paid">Оформление месячной подписки</option>
-                  <option value="vip">Оформление VIP-подписки</option>
+                  <option value="month">Оформление месячной подписки</option>
+                  <option value="6months">Оформление полугодовой подписки</option>
+                  <option value="vip">Оформление годовой VIP-подписки</option>
                 </select>
                 <label class="h6">Имя и фамилия</label>
-                <input type="text" class="form-control" name="name">
+                <input type="text" class="form-control" name="name" required>
                 <label class="h6">Ваш e-mail или телефон</label>
-                <input type="text" class="form-control" name="reach_at">
+                <input type="text" class="form-control" name="reach_at" required>
                 <label class="h6">Комментарий</label>
                 <textarea rows="7" class="form-control" name="comment"></textarea>
                 <button type="submit" class="btn btn-primary"><span class="fui-mail"></span></button>

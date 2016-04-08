@@ -1034,12 +1034,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-weight: 600;
 }
 .header-12-sub .aside .price .currency {
-  position: absolute;
-  top: 30px;
-  left: -1em;
-  font-size: 20px;
-  font-weight: normal;
-  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  bottom: 5px;
+  width: 45px;
 }
 .header-12-sub .aside .btn {
   margin-top: 100px;
