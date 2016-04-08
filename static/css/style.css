@@ -1247,7 +1247,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   position: relative;
 }
 .price-2 .plans .title .price {
-  margin: 10px 0 13px;
+  margin: 10px 0 0;
   font-size: 100px;
   font-weight: 500;
 }
@@ -1914,6 +1914,16 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 
 .nobr {
   white-space: nowrap;
+}
+
+.price-2 .plans .title .subprice {
+  display: block;
+  margin: 0 0 13px 0;
+  font-size: 12px;
+  opacity: 50;
+  filter: alpha(opacity=5000);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 @media (max-width: 1200px) {
