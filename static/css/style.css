@@ -1399,7 +1399,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   position: relative;
 }
 .content-18 .carousel {
-  margin-bottom: 100px;
+  margin-bottom: 0px;
   text-align: center;
 }
 .content-18 .carousel:before {
