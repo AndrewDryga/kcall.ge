@@ -854,7 +854,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .header-12 .navbar .brand img:first-child {
   float: left;
-  margin: -10px 15px 0 0;
+  margin: 7px 15px 0 0;
 }
 .header-12 .navbar .nav {
   margin: 12px 0 0 100px;
@@ -962,7 +962,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .header-12-sub .aside {
   position: relative;
-  background: #e74c3c;
+  background: #0764ff;
   float: right;
   text-align: center;
   padding-left: 95px;
@@ -979,7 +979,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   top: 0;
   width: 5000px;
   height: 100%;
-  background: #e74c3c;
+  background: #0764ff;
 }
 .header-12-sub .aside > * {
   position: relative;
