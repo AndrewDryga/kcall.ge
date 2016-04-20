@@ -854,7 +854,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .header-12 .navbar .brand img:first-child {
   float: left;
-  margin: 7px 15px 0 0;
+  margin: -3px 15px 0 0;
 }
 .header-12 .navbar .nav {
   margin: 12px 0 0 100px;
@@ -1980,4 +1980,62 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .contacts-2 form .btn.btn-primary:hover,
 .contacts-2 form .btn.btn-primary:focus {
   background-color: #27ae60;
+}
+
+.scroll-helper .nav-next {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 5px;
+
+  font-size: 50px;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.scroll-helper .nav-next a {
+  color: #0764ff;
+}
+
+.aside .brand {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.language-switch {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.language-switch ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.language-switch ul li {
+  margin-right: 20px;
+  float: left;
+}
+
+.language-switch a {
+  display: block;
+  color: #ffffff;
+}
+
+.language-switch a.active,
+.language-switch a:hover {
+  display: block;
+  color: #bdc3c7;
 }
