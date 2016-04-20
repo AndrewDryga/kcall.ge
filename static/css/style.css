@@ -1094,7 +1094,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
  * Content 5 stylesheet
  * */
 .content-5 {
-  padding-top: 100px;
+  padding-top: 0px;
   padding-bottom: 30px;
   position: relative;
 }
